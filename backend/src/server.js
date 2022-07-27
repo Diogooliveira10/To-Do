@@ -1,8 +1,10 @@
 const express = require("express");
+const todosRoutes = require("./todos.routes")
 
 const app = express();
 
 app.use(express.json());
+app.use(todosRoutes);
 
 app.get("/home", (req, res) => {
     return res.json("Servidor rodando!")
