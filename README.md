@@ -1,2 +1,2 @@
 # To-Do
-CRUD completo com React.js, Node.js e PostgreSQL.
+CRUD completo com Node.js e PostgreSQL.
